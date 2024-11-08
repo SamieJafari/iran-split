@@ -1,0 +1,20 @@
+	<link rel="stylesheet" href="assets/css/aos.css">
+    	<link rel="stylesheet" href="assets/css/all.css">
+    	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+    	<link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+    	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+sass -w --style=compressed assets/sass/style.scss assets/css/style.css
+
+
+
+
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/all.js"></script>
+    	<script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+    	<script src="assets/js/jquery.min.js"></script>
+    	<script src="assets/js/script.js"></script>
+    	<script src="assets/js/sweetalert2.all.min.js"></script>
+    	<script src="assets/js/swiper-bundle.min.js"></script>

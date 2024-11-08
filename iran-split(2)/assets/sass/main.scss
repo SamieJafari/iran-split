@@ -1,0 +1,28 @@
+.b-f{
+    z-index: 40;
+    position: fixed;
+    top: 85vh;
+}
+.b-f-1{
+    width: 3rem;
+    height: 3rem;
+}
+.bg-2{
+    background-color: #eee;
+}
+.bg-3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background: white;
+    color: black;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+.bo-1{
+    color: white !important;
+    border-radius: 1rem;
+    background: rgb(6, 173, 6);
+}
+.bo-1:hover{
+    background: green;
+}

@@ -1,0 +1,122 @@
+header{
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+}
+nav{
+    font-size: small;
+}
+.item-b{
+    width: 1rem !important;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #999;
+}
+.item-b:hover{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.easli{
+    color: black;
+    text-decoration: none;
+}
+.farei{
+    color: #999;
+    text-decoration: none;
+}
+.farei:hover{
+    transition: 0.5s;
+    color: black;
+}
+.bg-ac{
+    background: #1e87f0;
+}
+.bg-ac:hover{
+    background: #186cc1;
+}
+.h-blue:hover{
+    color: #1e87f0;
+}
+#tel{
+    color: #1e87f0;
+}
+.b-1{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.b-2{
+    border: none !important;
+    height: 2.5rem;
+}
+.logo{
+    width: 8rem;
+}
+.nav-md{
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.side{
+    z-index: 10;
+    position: absolute;
+    width: 40%;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+}
+.gree-nav{
+    width: 8rem;
+}
+.bg{
+    background-color: #d7d7d7;
+}
+.parent_1{
+    &+.child_1{
+        display: none;
+    }
+    
+}
+.parent_1.active_1{
+    &+.child_1{
+        display: block;
+    }
+}
+.darkE{
+    position: fixed;
+    top: 0;
+    right:0;
+    background-color: #7c7c7c70;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+.kocholo{
+    top: 15%;
+    right: 5%;
+    position: absolute;
+    margin: auto !important;
+    z-index: 20;
+    background: white;
+    width: 90%;
+    height: 90%;
+}
+.bozorg{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    z-index: 30;
+}
+.search{
+    position: relative;
+    height: 5rem;
+    width: 100% !important;
+    border: none !important;
+}
+.search-b{
+    position: absolute;
+    left: 3rem;
+    top: 2rem;
+    height: 2rem;
+}
